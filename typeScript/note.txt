@@ -1,0 +1,20 @@
+super of js by microsoft
+allows static strict typing
+interfaces, enums, tuples, generics
+based on .net harmony sp
+familir with oop
+
+
+what's  wrong with js
+not suitable for larger application
+lacks of typing
+weired Inheritence, unfamiliar, syntax
+only error during times
+suffers type coercion
+
+
+intall
+nodejs
+ts compiler npm i -g typescript
+tsc init
+tsc -w

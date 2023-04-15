@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "First Extension",
+  "description": "This is my first extension",
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "action": {
+    "default_icon": "48.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"]
+}

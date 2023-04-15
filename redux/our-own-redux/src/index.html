@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Redux Special Crash Course</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+      <div class="container my-3">
+          <div class="row">
+              <div class="col-md-6 offset-md-3">
+                  <h3>Enter a Valid Link to Store </h3>
+                  <input type="text" id="urlInput" class="form-control" placeholder="Enter a Valid URL">
+                  <h5 class="text-center mt-5"> Favorite List ( <span id="favCount"></span> )</h5>
+                  <ul class="list-group" id="favoriteUL"></ul>
+                  <h5 class="text-center mt-5"> Bookmarks List ( <span id="allCount"></span> )</h5>
+                  <ul class="list-group" id="bookmarksUL"></ul>
+              </div>
+          </div>
+      </div>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

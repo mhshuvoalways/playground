@@ -1,0 +1,68 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Event 1",
+      "category": "game",
+      "date": "Jan 25"
+    },
+    {
+      "id": 2,
+      "title": "Event 2",
+      "category": "sports",
+      "date": "Feb 25"
+    },
+    {
+      "id": 3,
+      "title": "Event 3",
+      "category": "sports",
+      "date": "May 25"
+    },
+    {
+      "id": 4,
+      "title": "Event 4",
+      "category": "movie",
+      "date": "Jun 25"
+    },
+    {
+      "id": 5,
+      "title": "Event 5",
+      "category": "sports",
+      "date": "July 25"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "product 1",
+      "price": 120
+    },
+    {
+      "id": 2,
+      "name": "product 2",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "product 3",
+      "price": 300
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "name": "new 1",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "name": "new 2",
+      "category": "politics"
+    },
+    {
+      "id": 3,
+      "name": "new 3",
+      "category": "entertainment"
+    }
+  ]
+}

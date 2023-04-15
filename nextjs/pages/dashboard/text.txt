@@ -1,0 +1,1 @@
+same as react. and we can use swr for data fatching

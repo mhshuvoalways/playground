@@ -1,0 +1,33 @@
+dark media dile pc onujai hobe and class dile class onijayi hobe
+
+Input.css file a opor theke niche important
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@apply Directive amra tailwind er css ta jno kaj kore sei jonno use kori
+ @layer Directive use kori jate tailwind er default css override na hoa jai
+ 
+then amader css
+and specity important jeomon(px-2 py-4 p-2 ekhane p-2 kaj korbe na)
+
+kintu soruce file a (px-2 py-4 p-2 ekhane p2 kaj korbe and dark:sm:hover:bg-gray-500 abong ekhane ei order a likhte hobe)
+
+nijeder hover focus sm esob e kaj korate hole amader use korte hobe @variants, @responsive
+
+inteligence support kore sudhu config file a customize korle
+
+
+v3
+jit all the time
+every color out of box - 20 ta color add hoyeche
+colored box shadow - shadow-gray-200/20
+scroll snap api - snap-x snap-center
+multi-coloum layout
+native from control styling
+print modifier - print:text-gray-200
+modern aspect ratio api - ifram a amra youtube video er height thik kora jabe - aspect-video
+fancy underline style
+abritart properties
+play cdn
+scroll bahaviour - <html class="scroll"></html> <section class="scroll-mt-14"></section> 

@@ -1,0 +1,4 @@
+url = uniform resource locator
+https(protocol) -> www(sub domain)-> google.com(domain) :8080(port) /docs(path) ?user=1(query string) #process(fragment)
+
+query string and https header er maddhome amra extra info provide korte pari

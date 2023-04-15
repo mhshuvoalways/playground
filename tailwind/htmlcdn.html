@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        //tailwind.config file a ja ja korte partam tai tai korte parbo
+        theme: {},
+        plugins: [],
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .custom-grid {
+          display: grid;
+          grid-template-columns: 100px 1fr 1fr;
+        @apply p-8 gap-3
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="custom-grid">
+      <div class="bg-gray-800">test</div>
+      <div class="bg-blue-800">test</div>
+      <div class="bg-green-800">test</div>
+    </div>
+  </body>
+</html>

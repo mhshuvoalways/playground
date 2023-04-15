@@ -1,0 +1,149 @@
+ABSTRUCTION
+let date = new Date()
+Math.floor()
+
+ENCAPSULTION
+encapsulaion er ekt bisoy ase jeta holo access modifier
+class { sob kisu ektbarte atke dilam etay encapsulaion
+    state
+    static state
+    constructor
+    method
+    static method
+}
+
+// INHERITENCE
+// There are two type of relationship in oop.
+// 1. Is a relationship (1.Inheritence) student is a person
+// 2. Has a relationship ( 1. Aggregation 2.Composition  ) student has a department.
+// STUDENT  ------ DEPARTMENT ----------SUBJECT
+// student na thkle department cholbe tay eta 'aggregation'. but department na thkle subject thkbe na tay eta composition
+
+
+
+
+// POLYMORPHISM
+// 1. Compile time (1. constructor overloding, 2. operator overloading, 3. function overloading 4. function overriding)
+// 2. Run time(virtual function)
+
+
+
+08. OOP Case Study
+we have to breakdown the application and then find object and relatetion between them.
+
+Build a university managment system where admin can mange student, guardians, teachers, staff, depertment, subject, exam and Account. 
+Admin can create, update, delete and manage all the resource.
+
+Objects:
+
+1. Students
+2. Guardians
+3. Teachers
+4. Staff
+5. Department
+6. Subject
+7. Exam
+8. Account
+
+Students:
+Id
+name
+guardian
+contact
+blood
+account
+exams[]
+department
+
+Guardian:
+Id
+name
+contact
+blood
+profession 
+Income
+
+Teachers:
+Id
+name
+blood
+contact
+department
+subject
+salary
+
+Staff
+Id
+name
+blood
+contact
+department
+title
+salary
+
+Department:
+id
+name
+subjects
+dean(Teacher)
+teachers
+
+
+Subject:
+id
+name
+credit
+department
+
+Exam:
+id
+name
+pass mark
+duration
+subject
+student
+
+Account:
+id
+type
+amount
+type
+
+
+
+=====================
+Contact
+id
+name
+phone
+alternative phone
+address
+
+
+Address:
+id
+road no
+city
+region(state)
+country
+postal code
+
+
+
+
+
+You have to build a library management system. Admin will have all the access. There will two different type of accounts like Student Account and Teacher Account. Students can register as General or Premium. Teacher account always be Premium. Admin can Categorize and Manage Books. 
+    
+Create an UML Diagram Based on The Requirements.
+
+1. Book
+2. Student
+3. Teacher
+
+
+
+
+
+
+
+10. OOP Case Study 3.mp4

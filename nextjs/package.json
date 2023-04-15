@@ -1,0 +1,30 @@
+{
+  "name": "first-nextjs-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "api": "json-server --watch db.json --port 4000",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "json-server": "^0.17.2",
+    "next": "13.1.6",
+    "next-auth": "^4.20.1",
+    "react": "18.2.0",
+    "react-card-flip": "^1.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.59.3",
+    "styled-components": "^5.3.9"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28"
+  }
+}

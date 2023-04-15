@@ -1,0 +1,13 @@
+Frontend, Mobile Application, desktop application, crome extension, vs code extension.
+client application difference sudhu ui a
+
+mobile and desktop er jonno SQLite database valo.
+class is a blueprint to create multiple object
+
+class {
+    state
+    static state
+    constructor
+    method
+    static method
+}
