@@ -1,0 +1,32 @@
+## Button Component
+
+The `Button` component is a customizable button element.
+
+### Props
+
+- `label` (string): The label of the button.
+- `handleOnChange` (function): The event handler for button click.
+- `style` (object): Custom CSS styles for the button.
+
+### Usage
+
+```jsx
+import React from 'react';
+import Button from './Button';
+
+// Usage 1: Default Button
+<Button label="Click me" handleOnChange={() => console.log("Button clicked")}>
+  Default Button
+</Button>
+
+// Usage 2: Custom Style Button
+<Button
+  label="Custom Style Button"
+  handleOnChange={() => console.log("Button clicked")}
+  style={{
+    background: "blue",
+    color: "yellow",
+  }}
+>
+  Custom Style Button
+</Button>

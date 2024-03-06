@@ -49,7 +49,7 @@ kono component call houar thik ag muhurte shouldComponentUpdate call hobe
 common functionality pass korar jonno and to avoid props drilling use korte hobe HOC, render props, context api
 
 15 video
-context api use to avoid props drilling properly 
+context api use to avoid props drilling properly
 
 18 video
 user interface banano sara ar ja ja kaj ase sob holo side effect
@@ -83,7 +83,7 @@ useCallback function take mone rakhe and useMemo function er return value take m
 useRef, forwardRef and r ekta jinis dekhaysilo jeta dorkar nai
 
 23 video
-useReducer react a state change korar rekta machanism
+useReducer react a state change korar r ekta machanism
 useState a bar bar useState call korte hoy but useReducer a etobar likha lage na and somosto business logic ek jagay likha thake
 
 

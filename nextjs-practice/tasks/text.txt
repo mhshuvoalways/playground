@@ -35,14 +35,7 @@ in api folder if you make file like [...params].js we can catch all the route bu
 
 we should not use in our own api in the getStaticProps and getServerSideProps
 
-style (notun kisu sikhar nai)
-==========
-global // all the pages work like style.css, bootstrap etc
-components styles // components level work like home.modules.css
-sass or scss // ager motoy. i sass and connects
-css in js solution // inline style and styled-components
-
-next export is run without nodejs server and server static pages 
+next export is run without nodejs server and server static pages
 
 Authentication = identity. client, server-side Authentication and api routes Authentication
 authorization = role
